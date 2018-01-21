@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: auto;
+  min-height: 100%;
+}
+
+#root {
+  height: 100%;
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  background-color: #000000;
+}
+
+.main-section {
+
+  color: #FFF;
+}
+
+.site-header {
+  color: #FFF;
+  font-size: 4em;
+  padding: 0.5em;
+  font-family: 'Patua One', cursive;
+  letter-spacing: 1px;
+}
+
+.user-name {
+  font-size: 5em;
+  text-align: center;
+}
+
+.history-link {
+  font-size: 1.2em;
+  text-align: center;
+  color: #FFF;
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+.history-link:hover,
+.history-link:focus {
+  color: #b1afaf;
+}
